@@ -2,14 +2,17 @@ import React, { useState } from "react";
 
 const App = () => {
   // Initialize dictionary state
-  const initialDictionary = [
-    {
-      word: "React",
-      meaning: "A JavaScript library for building user interfaces.",
-    },
-    { word: "Component", meaning: "A reusable building block in React." },
-    { word: "State", meaning: "An object that stores data for a component." },
-  ];
+  const initialDictionary = 
+  [
+  
+      { word: "React", meaning: "A JavaScript library for building user interfaces." },
+  
+      { word: "Component", meaning: "A reusable building block in React." },
+  
+      { word: "State", meaning: "An object that stores data for a component." }
+  
+  ]
+  ;
   const [dictionary, setDictionary] = useState(initialDictionary);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResult, setSearchResult] = useState("");
